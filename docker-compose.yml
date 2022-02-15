@@ -29,12 +29,12 @@ services:
     networks:
       - mp3php
 
-  php:
-    image: php:8.0-fpm
-    volumes:
-      - ./:/var/www
-    networks:
-      - mp3php
+  # php:
+  #   image: php:8.0-fpm
+  #   volumes:
+  #     - ./:/var/www
+  #   networks:
+  #     - mp3php
 
 
 

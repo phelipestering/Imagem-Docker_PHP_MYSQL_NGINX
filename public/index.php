@@ -1,1 +1,3 @@
-ola mundooooooooo
+<?PHP
+
+echo PHP_VERSION;
